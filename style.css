@@ -1,0 +1,32 @@
+/*
+Theme Name: My Theme
+Theme Domain: My-Theme
+*/
+
+*, html{
+    margin:0;
+    padding:0;
+}
+
+header{
+    margin-bottom: 4em;
+    box-shadow: 0 0 10px black;
+}
+
+.main-menu{
+    padding: 1em;
+    list-style: none;
+}
+
+.main-menu li{
+    display: inline-block;
+}
+
+.main-menu li a{
+    color:black;
+    text-decoration: none;
+}
+
+#hero{
+    background-color: #333;
+}
